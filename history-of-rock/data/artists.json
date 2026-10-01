@@ -1,0 +1,255 @@
+{
+ "_about": "Full artist cards. Keys must match the real name used on the board (the part after '=>' in chart.json, or the name itself). The data pipeline will fill this in for every artist.",
+ "artists": {
+  "Chuck Berry": {
+   "years": "1926–2017 · St. Louis, Missouri",
+   "whyTheyMatter": "Wrote the rulebook for rock guitar: the double-stop intro, the duckwalk, and lyrics about cars, school, and teenagers. If rock had a founding father, the paternity test comes back here.",
+   "topSongs": [
+    "Johnny B. Goode",
+    "Maybellene",
+    "Roll Over Beethoven",
+    "Sweet Little Sixteen",
+    "You Never Can Tell"
+   ],
+   "seenIn": [
+    {
+     "title": "Back to the Future",
+     "year": 1985,
+     "note": "“Johnny B. Goode,” played by Marty at the school dance"
+    },
+    {
+     "title": "Pulp Fiction",
+     "year": 1994,
+     "note": "“You Never Can Tell,” the Jack Rabbit Slim's twist contest"
+    }
+   ],
+   "influencedBy": [
+    "Muddy Waters",
+    "T-Bone Walker",
+    "Louis Jordan"
+   ],
+   "influenced": [
+    "The Beatles",
+    "Rolling Stones",
+    "Beach Boys"
+   ]
+  },
+  "Little Richard": {
+   "years": "1932–2020 · Macon, Georgia",
+   "whyTheyMatter": "Pounded piano, a pompadour, and a scream that made everyone else sound polite. He brought gospel's intensity and pure showmanship to rock and roll.",
+   "topSongs": [
+    "Tutti Frutti",
+    "Long Tall Sally",
+    "Good Golly, Miss Molly",
+    "Lucille",
+    "Rip It Up"
+   ],
+   "seenIn": [],
+   "influencedBy": [
+    "Sister Rosetta Tharpe",
+    "Louis Jordan"
+   ],
+   "influenced": [
+    "The Beatles",
+    "David Bowie",
+    "Prince"
+   ]
+  },
+  "Elvis Presley": {
+   "years": "1935–1977 · Tupelo, Mississippi",
+   "whyTheyMatter": "The Memphis truck driver who fused country and R&B at Sun Studio and carried it into every living room in America. The first true rock star.",
+   "topSongs": [
+    "Heartbreak Hotel",
+    "Hound Dog",
+    "Jailhouse Rock",
+    "Suspicious Minds",
+    "Can't Help Falling in Love"
+   ],
+   "seenIn": [
+    {
+     "title": "Lilo & Stitch",
+     "year": 2002,
+     "note": "“Hound Dog,” “Suspicious Minds,” and more; Lilo's favorite"
+    },
+    {
+     "title": "Elvis",
+     "year": 2022,
+     "note": "Baz Luhrmann's biopic, built on his catalog"
+    }
+   ],
+   "influencedBy": [
+    "Arthur “Big Boy” Crudup",
+    "Big Mama Thornton"
+   ],
+   "influenced": [
+    "The Beatles",
+    "Buddy Holly"
+   ]
+  },
+  "Buddy Holly": {
+   "years": "1936–1959 · Lubbock, Texas",
+   "whyTheyMatter": "Glasses, a Stratocaster, and songs he wrote himself for a self-contained band. Two guitars, bass, and drums became the standard lineup because of him.",
+   "topSongs": [
+    "That'll Be the Day",
+    "Peggy Sue",
+    "Not Fade Away",
+    "Everyday",
+    "Rave On"
+   ],
+   "seenIn": [
+    {
+     "title": "The Buddy Holly Story",
+     "year": 1978,
+     "note": "Biopic; Gary Busey plays Holly"
+    }
+   ],
+   "influencedBy": [
+    "Elvis Presley"
+   ],
+   "influenced": [
+    "The Beatles",
+    "Rolling Stones"
+   ]
+  },
+  "The Beatles": {
+   "years": "1960–1970 · Liverpool, England",
+   "whyTheyMatter": "Started as a Chuck Berry and Little Richard cover band in Hamburg clubs, then rewrote what a pop song and an album could be, about every six months.",
+   "topSongs": [
+    "Hey Jude",
+    "Let It Be",
+    "Come Together",
+    "Here Comes the Sun",
+    "A Hard Day's Night"
+   ],
+   "seenIn": [
+    {
+     "title": "A Hard Day's Night",
+     "year": 1964,
+     "note": "Their own movie, and a blueprint for music videos"
+    },
+    {
+     "title": "Across the Universe",
+     "year": 2007,
+     "note": "A musical built entirely from their songs"
+    },
+    {
+     "title": "Yesterday",
+     "year": 2019,
+     "note": "A world where only one man remembers them"
+    }
+   ],
+   "influencedBy": [
+    "Chuck Berry",
+    "Little Richard",
+    "Elvis Presley",
+    "Buddy Holly",
+    "Everly Brothers"
+   ],
+   "influenced": [
+    "The Byrds",
+    "Beach Boys",
+    "ELO"
+   ]
+  },
+  "Rolling Stones": {
+   "years": "1962–present · London, England",
+   "whyTheyMatter": "Named themselves after a Muddy Waters song and stayed the bluesiest band of the invasion. Sixty-plus years later, still touring.",
+   "topSongs": [
+    "(I Can't Get No) Satisfaction",
+    "Paint It Black",
+    "Gimme Shelter",
+    "Sympathy for the Devil",
+    "Start Me Up"
+   ],
+   "seenIn": [
+    {
+     "title": "Full Metal Jacket",
+     "year": 1987,
+     "note": "“Paint It Black” over the end credits"
+    },
+    {
+     "title": "The Departed",
+     "year": 2006,
+     "note": "“Gimme Shelter” in the opening"
+    }
+   ],
+   "influencedBy": [
+    "Chuck Berry",
+    "Bo Diddley",
+    "Muddy Waters",
+    "Buddy Holly"
+   ],
+   "influenced": [
+    "Aerosmith",
+    "Iggy Pop"
+   ]
+  },
+  "Cream": {
+   "years": "1966–1968 · London, England",
+   "whyTheyMatter": "Eric Clapton, Jack Bruce, and Ginger Baker: the first supergroup. They took blues standards, stretched them into long improvised jams, and cranked the volume, laying track for hard rock.",
+   "topSongs": [
+    "Sunshine of Your Love",
+    "White Room",
+    "Crossroads",
+    "Strange Brew",
+    "I Feel Free"
+   ],
+   "seenIn": [
+    {
+     "title": "School of Rock",
+     "year": 2003,
+     "note": "“Sunshine of Your Love”",
+     "schoolOfRock": true
+    },
+    {
+     "title": "Goodfellas",
+     "year": 1990,
+     "note": "“Sunshine of Your Love” in the bar scene"
+    }
+   ],
+   "influencedBy": [
+    "Robert Johnson",
+    "Muddy Waters"
+   ],
+   "influenced": [
+    "Led Zeppelin",
+    "Black Sabbath",
+    "Rush"
+   ]
+  },
+  "Led Zeppelin": {
+   "years": "1968–1980 · London, England",
+   "whyTheyMatter": "Took Cream's blues-rock blueprint and made it enormous: Page's riffs, Plant's wail, and Bonham's drums. Hard rock's heavyweight champions.",
+   "topSongs": [
+    "Stairway to Heaven",
+    "Whole Lotta Love",
+    "Immigrant Song",
+    "Kashmir",
+    "Black Dog"
+   ],
+   "seenIn": [
+    {
+     "title": "School of Rock",
+     "year": 2003,
+     "note": "“Immigrant Song” (Jack Black filmed a video begging the band for permission)",
+     "schoolOfRock": true
+    },
+    {
+     "title": "Thor: Ragnarok",
+     "year": 2017,
+     "note": "“Immigrant Song” in both big battle scenes"
+    }
+   ],
+   "influencedBy": [
+    "Muddy Waters",
+    "Yardbirds",
+    "Cream"
+   ],
+   "influenced": [
+    "Aerosmith",
+    "Rush",
+    "Soundgarden"
+   ]
+  }
+ }
+}

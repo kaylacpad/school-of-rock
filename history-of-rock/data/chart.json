@@ -1,0 +1,1577 @@
+{
+ "_about": "Transcribed from the School of Rock 'History of Rock' chalkboard. All coordinates are in the original 1280x1024 chart's pixels. The board scales them by 'scale'; 'nudge' (spacing only) and 'rowSpacing' overrides keep names clear of lines and boxes.",
+ "scale": 2,
+ "origin": [
+  40,
+  90
+ ],
+ "artistFont": 14,
+ "genreFont": 28,
+ "titleFont": 84,
+ "rowSpacing": 15.3,
+ "indent": 16,
+ "title": {
+  "text": "History of Rock",
+  "x": 640,
+  "y": 140
+ },
+ "genres": {
+  "country": {
+   "name": "Country",
+   "born": 1925,
+   "blurb": "Fiddles, story songs, and heartbreak from the rural South and Appalachia. Half of rock's family tree comes from right here.",
+   "box": [
+    130,
+    354,
+    131,
+    46
+   ]
+  },
+  "folk": {
+   "name": "Folk",
+   "born": 1948,
+   "blurb": "Acoustic protest songs and storytelling from the coffeehouse revival. Proof that a song could change people's minds.",
+   "box": [
+    266,
+    276,
+    92,
+    35
+   ]
+  },
+  "folkrock": {
+   "name": "Folk Rock",
+   "born": 1965,
+   "blurb": "Folk lyrics with a rock band behind them. When Dylan plugged in at Newport in 1965, half the crowd booed and the other half started a genre.",
+   "box": [
+    516,
+    225,
+    154,
+    48
+   ]
+  },
+  "brit": {
+   "name": "Brit Invasion",
+   "born": 1963,
+   "blurb": "British kids wore out their imported Chuck Berry and Muddy Waters records, then shipped the sound back across the Atlantic, louder and with better haircuts. By 1964 they owned the American charts.",
+   "box": [
+    449,
+    356,
+    180,
+    33
+   ],
+   "deep": true
+  },
+  "poprock": {
+   "name": "Pop\nRock",
+   "born": 1966,
+   "blurb": "Rock with the rough edges sanded down for radio: big hooks, stacked harmonies, and arena singalongs.",
+   "box": [
+    674,
+    364,
+    93,
+    43
+   ]
+  },
+  "newwave": {
+   "name": "New Wave",
+   "born": 1977,
+   "blurb": "Punk's nervous energy plus synthesizers, art-school ideas, and a lot of hair product.",
+   "box": [
+    1009,
+    231,
+    130,
+    27
+   ]
+  },
+  "grunge": {
+   "name": "Grunge",
+   "born": 1988,
+   "blurb": "Seattle mixed punk's fury with metal's sludge, put on a flannel, and knocked hair metal off MTV.",
+   "box": [
+    1011,
+    298,
+    93,
+    34
+   ]
+  },
+  "metal": {
+   "name": "Heavy\nMetal",
+   "born": 1970,
+   "blurb": "Hard rock's darker, heavier sibling. Detuned, distorted, and proud of it.",
+   "box": [
+    1144.5,
+    362.5,
+    89,
+    55
+   ]
+  },
+  "hardrock": {
+   "name": "Hard Rock",
+   "born": 1968,
+   "blurb": "Blues riffs, turned up until the amps begged for mercy. The destination half the arrows on this board are racing toward.",
+   "box": [
+    917,
+    374,
+    111,
+    25
+   ]
+  },
+  "punk": {
+   "name": "Punk",
+   "born": 1975,
+   "blurb": "Three chords, two minutes, no permission asked. A loud reply to bloated '70s rock.",
+   "box": [
+    1019,
+    419,
+    68,
+    30
+   ]
+  },
+  "rockabilly": {
+   "name": "Rock a\nBilly",
+   "born": 1954,
+   "blurb": "Country's twang collides with R&B's backbeat in a small Memphis studio. Slap-back echo, a thumping upright bass, and dance moves that TV cameras were told to film from the waist up.",
+   "box": [
+    262,
+    460,
+    98,
+    59
+   ],
+   "deep": true
+  },
+  "blues": {
+   "name": "Blues",
+   "born": 1900,
+   "blurb": "Where it all starts. Born in the Mississippi Delta out of work songs and spirituals: a few chords, a lot of feeling, and a guitar that talks back. Follow any arrow on this board backwards long enough and you end up here.",
+   "box": [
+    109.5,
+    620,
+    91,
+    37
+   ],
+   "deep": true
+  },
+  "rnb": {
+   "name": "R&B",
+   "born": 1945,
+   "blurb": "The blues put on its dancing shoes. Postwar city clubs added a backbeat, honking saxophones, and swagger. The labels called it rhythm and blues. A few years later a DJ called it rock and roll.",
+   "box": [
+    232.5,
+    589.5,
+    85,
+    37
+   ],
+   "deep": true
+  },
+  "soul": {
+   "name": "Soul",
+   "born": 1958,
+   "blurb": "Gospel fervor meets R&B. Church voices, singing about earthly love.",
+   "box": [
+    453,
+    562,
+    67,
+    37
+   ]
+  },
+  "psych": {
+   "name": "Psychedelic\nRock",
+   "born": 1966,
+   "blurb": "Rock stretches out: long jams, studio experiments, and sounds designed to bend your brain.",
+   "box": [
+    662,
+    519,
+    117,
+    45
+   ]
+  },
+  "prog": {
+   "name": "Prog\nRock",
+   "born": 1969,
+   "blurb": "Rock goes to the conservatory: side-long suites, odd time signatures, and concept albums about wizards.",
+   "box": [
+    878.5,
+    519,
+    80,
+    57
+   ]
+  },
+  "southern": {
+   "name": "Southern Rock",
+   "born": 1969,
+   "blurb": "Blues, country, and rock jammed together below the Mason-Dixon line, with at least two lead guitars.",
+   "box": [
+    687,
+    622.5,
+    136,
+    25
+   ]
+  },
+  "glam": {
+   "name": "Glitter/Glam",
+   "born": 1971,
+   "blurb": "Platform boots, glitter, and theatrical alter egos. Rock as a costume party.",
+   "box": [
+    886,
+    642.5,
+    135,
+    25
+   ]
+  },
+  "weird": {
+   "name": "?",
+   "born": 1966,
+   "blurb": "Even the chart shrugs here. Artists too strange to file anywhere else, and happy about it.",
+   "box": [
+    996,
+    660.5,
+    26,
+    29
+   ]
+  },
+  "doowop": {
+   "name": "Doo\nWop",
+   "born": 1950,
+   "blurb": "Street-corner harmonies: four voices, one streetlight, no instruments required.",
+   "box": [
+    334,
+    668,
+    72,
+    61
+   ]
+  },
+  "funk": {
+   "name": "Funk",
+   "born": 1965,
+   "blurb": "Everything on the one. Soul stripped down to the groove.",
+   "box": [
+    486,
+    749,
+    83,
+    41
+   ]
+  },
+  "disco": {
+   "name": "Disco",
+   "born": 1974,
+   "blurb": "Funk goes to the club: four-on-the-floor beats, string sections, and a mirror ball.",
+   "box": [
+    678,
+    758,
+    68,
+    32
+   ]
+  },
+  "hiphop": {
+   "name": "Hip Hop",
+   "born": 1979,
+   "blurb": "Bronx DJs looped the breaks from funk and disco records, and MCs started talking over them.",
+   "box": [
+    944,
+    751,
+    90,
+    35
+   ]
+  },
+  "rap": {
+   "name": "Rap",
+   "born": 1984,
+   "blurb": "The MC takes center stage. Sharper rhymes, harder beats, and stories straight from the block.",
+   "box": [
+    810.5,
+    832,
+    56,
+    36
+   ]
+  },
+  "eighties": {
+   "name": "80's",
+   "born": 1980,
+   "blurb": "The '80s underground: hardcore and college rock kept punk's do-it-yourself spirit alive.",
+   "box": [
+    1141,
+    649,
+    48,
+    30
+   ]
+  },
+  "jazz": {
+   "name": "Jazz",
+   "born": 1910,
+   "blurb": "The blues' sophisticated cousin: improvisation, swing, and adventurous harmony. The dotted line means they grew up side by side.",
+   "box": [
+    101,
+    815,
+    74,
+    43
+   ]
+  }
+ },
+ "edges": [
+  {
+   "from": "country",
+   "to": "folk",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       185,
+       330
+      ],
+      [
+       218.5,
+       297
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "country",
+   "to": "rockabilly",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       185,
+       377.5
+      ],
+      [
+       222.5,
+       428
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "folk",
+   "to": "folkrock",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       312.5,
+       268.5
+      ],
+      [
+       436,
+       232.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "blues",
+   "to": "rnb",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       155,
+       601.5
+      ],
+      [
+       187.5,
+       582
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "blues",
+   "to": "jazz",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       93.5,
+       638.5
+      ],
+      [
+       93.5,
+       793.5
+      ]
+     ]
+    }
+   ],
+   "dashed": true
+  },
+  {
+   "from": "rnb",
+   "to": "rockabilly",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       221,
+       570
+      ],
+      [
+       258.5,
+       492.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "rnb",
+   "to": "doowop",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       275,
+       608
+      ],
+      [
+       308.5,
+       635
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "rnb",
+   "to": "hardrock",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       276,
+       579
+      ],
+      [
+       852.5,
+       392.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "rockabilly",
+   "to": "brit",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       306,
+       428.5
+      ],
+      [
+       356,
+       372
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "brit",
+   "to": "folkrock",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       453,
+       339
+      ],
+      [
+       453,
+       251
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "brit",
+   "to": "soul",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       453,
+       372.5
+      ],
+      [
+       453,
+       541
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "brit",
+   "to": "poprock",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       539,
+       351.5
+      ],
+      [
+       625,
+       351.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "brit",
+   "to": "hardrock",
+   "segments": [
+    {
+     "type": "C",
+     "points": [
+      [
+       539,
+       370
+      ],
+      [
+       575,
+       440
+      ],
+      [
+       710,
+       445
+      ],
+      [
+       837.5,
+       382.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "doowop",
+   "to": "soul",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       335,
+       637.5
+      ],
+      [
+       415,
+       569
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "doowop",
+   "to": "funk",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       370,
+       698.5
+      ],
+      [
+       442,
+       732.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "soul",
+   "to": "psych",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       487.5,
+       561
+      ],
+      [
+       600,
+       530
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "psych",
+   "to": "hardrock",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       710,
+       496
+      ],
+      [
+       847.5,
+       405
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "psych",
+   "to": "prog",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       721,
+       502.5
+      ],
+      [
+       836,
+       502.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "psych",
+   "to": "southern",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       606.5,
+       542.5
+      ],
+      [
+       620,
+       607
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "psych",
+   "to": "glam",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       720,
+       535
+      ],
+      [
+       823.5,
+       627
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "prog",
+   "to": "weird",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       918.5,
+       542.5
+      ],
+      [
+       991,
+       644
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "funk",
+   "to": "disco",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       529,
+       736
+      ],
+      [
+       641,
+       752.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "disco",
+   "to": "hiphop",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       712.5,
+       747.5
+      ],
+      [
+       896,
+       747.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "disco",
+   "to": "rap",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       712.5,
+       757.5
+      ],
+      [
+       781,
+       812
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "folkrock",
+   "to": "newwave",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       594,
+       230
+      ],
+      [
+       941,
+       230
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "poprock",
+   "to": "newwave",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       721,
+       340
+      ],
+      [
+       829,
+       293
+      ]
+     ]
+    },
+    {
+     "type": "L",
+     "points": [
+      [
+       912.5,
+       257.5
+      ],
+      [
+       929,
+       246
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "poprock",
+   "to": "hardrock",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       748,
+       358.5
+      ],
+      [
+       858,
+       369
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "hardrock",
+   "to": "newwave",
+   "segments": [
+    {
+     "type": "Q",
+     "points": [
+      [
+       919,
+       359
+      ],
+      [
+       921,
+       288
+      ],
+      [
+       950,
+       247
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "hardrock",
+   "to": "grunge",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       960,
+       358.5
+      ],
+      [
+       978,
+       318
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "hardrock",
+   "to": "punk",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       952.5,
+       387.5
+      ],
+      [
+       982.5,
+       412
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "metal",
+   "to": "grunge",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       1099,
+       335
+      ],
+      [
+       1061.5,
+       312
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "metal",
+   "to": "punk",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       1100,
+       390
+      ],
+      [
+       1055,
+       410
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "newwave",
+   "to": "grunge",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       957.5,
+       245.5
+      ],
+      [
+       970,
+       278
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "from": "punk",
+   "to": "eighties",
+   "segments": [
+    {
+     "type": "L",
+     "points": [
+      [
+       1040,
+       435
+      ],
+      [
+       1135,
+       631
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "annotations": [
+  {
+   "type": "C",
+   "points": [
+    [
+     729,
+     314
+    ],
+    [
+     752,
+     312
+    ],
+    [
+     748,
+     299
+    ],
+    [
+     686,
+     301
+    ]
+   ]
+  }
+ ],
+ "lists": {
+  "folkrock": [
+   {
+    "x": 602.5,
+    "y": 206.5,
+    "names": [
+     "Van Morrison",
+     "Dave Mason",
+     "Creedence Clearwater Revival",
+     "Jackson Brown=>Jackson Browne",
+     "Simon & Garfunkel"
+    ]
+   },
+   {
+    "x": 544,
+    "y": 260,
+    "names": [
+     "The Band"
+    ],
+    "anchor": "middle"
+   }
+  ],
+  "folk": [
+   {
+    "x": 267,
+    "y": 305,
+    "names": [
+     "Kingston Trio",
+     "Joan Baez",
+     "Peter, Paul & Mary"
+    ],
+    "anchor": "middle"
+   }
+  ],
+  "folk>folkrock": [
+   {
+    "x": 358.5,
+    "y": 268.5,
+    "names": [
+     "Bob\nDylan=>Bob Dylan"
+    ],
+    "anchor": "middle"
+   }
+  ],
+  "rockabilly>brit": [
+   {
+    "x": 272.5,
+    "y": 401.5,
+    "names": [
+     "Carl Perkins",
+     "Gene Vincent"
+    ],
+    "anchor": "middle"
+   }
+  ],
+  "rockabilly": [
+   {
+    "x": 316,
+    "y": 437,
+    "names": [
+     "Elvis=>Elvis Presley",
+     "Everly Brothers",
+     "Buddy Holly",
+     "Roy Orbison",
+     "Eddie Cochran"
+    ]
+   }
+  ],
+  "brit": [
+   {
+    "x": 547.5,
+    "y": 359,
+    "names": [
+     "Beatles=>The Beatles",
+     "Kinks=>The Kinks"
+    ]
+   },
+   {
+    "x": 456.5,
+    "y": 389,
+    "names": [
+     "Rolling Stones",
+     "Animals",
+     "Yardbirds",
+     "Cream"
+    ]
+   }
+  ],
+  "poprock": [
+   {
+    "x": 620,
+    "y": 302.5,
+    "names": [
+     "Neil Young",
+     "Crosby, Stills, Nash=>Crosby, Stills & Nash",
+     "Byrds=>The Byrds"
+    ]
+   },
+   {
+    "x": 773.5,
+    "y": 288.5,
+    "names": [
+     "Bonnie\nRaitt=>Bonnie Raitt"
+    ],
+    "anchor": "middle"
+   },
+   {
+    "x": 722.5,
+    "y": 348.5,
+    "names": [
+     "Beach Boys",
+     "Kiss",
+     "Elton John",
+     "Neil Diamond"
+    ],
+    "nudge": [
+     4,
+     0
+    ]
+   },
+   {
+    "x": 618.5,
+    "y": 396,
+    "names": [
+     "The Go-Go's",
+     "Fleetwood Mac"
+    ]
+   }
+  ],
+  "poprock>newwave": [
+   {
+    "x": 831.5,
+    "y": 258.5,
+    "names": [
+     "Talking Heads",
+     "Pretenders",
+     "Eurythmics"
+    ]
+   }
+  ],
+  "newwave": [
+   {
+    "x": 1081.5,
+    "y": 221,
+    "names": [
+     "Devo",
+     "B-52's=>The B-52's",
+     "Police=>The Police"
+    ]
+   },
+   {
+    "x": 977.5,
+    "y": 253.5,
+    "names": [
+     "Blondie",
+     "Elvis Costello"
+    ]
+   }
+  ],
+  "grunge": [
+   {
+    "x": 983.5,
+    "y": 323.5,
+    "names": [
+     "Nirvana",
+     "Pearl Jam",
+     "Mudhoney",
+     "Sound Garden=>Soundgarden",
+     "Alice in Chains"
+    ]
+   }
+  ],
+  "metal": [
+   {
+    "x": 1109,
+    "y": 307.5,
+    "names": [
+     "Motorhead=>Motörhead",
+     "Black Sabbath"
+    ]
+   },
+   {
+    "x": 1194,
+    "y": 343.5,
+    "names": [
+     "Dio"
+    ]
+   },
+   {
+    "x": 1147.5,
+    "y": 400,
+    "names": [
+     "Judas Priest",
+     "Iron Maiden",
+     "Metallica"
+    ]
+   }
+  ],
+  "hardrock": [
+   {
+    "x": 864,
+    "y": 395,
+    "names": [
+     "The Who",
+     "Led Zeppelin",
+     "Aerosmith",
+     "Deep Purple",
+     "Van Halen"
+    ]
+   },
+   {
+    "x": 836,
+    "y": 331.5,
+    "names": [
+     "Ted Nugent",
+     "Grand Funk"
+    ]
+   },
+   {
+    "x": 924,
+    "y": 353.5,
+    "names": [
+     "AC/DC"
+    ]
+   }
+  ],
+  "punk": [
+   {
+    "x": 966,
+    "y": 446,
+    "names": [
+     "Patti Smith",
+     "Buzzcocks",
+     "Richard Hell",
+     "Siouxsie and|the Banshees=>Siouxsie and the Banshees"
+    ]
+   },
+   {
+    "x": 1066,
+    "y": 424,
+    "names": [
+     "Sex Pistols",
+     "Ramones",
+     "The Clash",
+     "~70's"
+    ]
+   }
+  ],
+  "rnb": [
+   {
+    "x": 270,
+    "y": 620,
+    "names": [
+     "Fats Domino",
+     "Little Richard",
+     "Chuck Berry",
+     "Ray Charles",
+     "Bo Diddley",
+     "Ike & Tina Turner"
+    ],
+    "anchor": "end"
+   }
+  ],
+  "doowop": [
+   {
+    "x": 335,
+    "y": 712.5,
+    "names": [
+     "The Platters",
+     "The Coasters",
+     "The Drifters",
+     "The Temptations"
+    ],
+    "anchor": "middle"
+   }
+  ],
+  "soul": [
+   {
+    "x": 420,
+    "y": 591.5,
+    "names": [
+     "Gladys Knight & the Pips",
+     "Otis Redding",
+     "Sam Cooke",
+     "Marvin Gaye",
+     "Stevie Wonder",
+     "Diana Ross",
+     "James Brown",
+     "Aretha Franklin"
+    ]
+   },
+   {
+    "x": 505,
+    "y": 612,
+    "names": [
+     "Isaac Hayes",
+     "Al Green",
+     "Sly & the Family|Stone=>Sly & the Family Stone"
+    ]
+   }
+  ],
+  "soul>psych": [
+   {
+    "x": 506.5,
+    "y": 526.5,
+    "names": [
+     "Janis\nJoplin=>Janis Joplin"
+    ]
+   }
+  ],
+  "psych": [
+   {
+    "x": 631.5,
+    "y": 552,
+    "names": [
+     "The Doors",
+     "Jefferson Airplane",
+     "Grateful Dead",
+     "Velvet Underground"
+    ]
+   },
+   {
+    "x": 666,
+    "y": 479,
+    "names": [
+     "Iggy Pop"
+    ]
+   }
+  ],
+  "psych>hardrock": [
+   {
+    "x": 773,
+    "y": 446,
+    "names": [
+     "Jimi Hendrix"
+    ],
+    "anchor": "middle",
+    "rotate": -34,
+    "nudge": [
+     -6,
+     -8
+    ]
+   }
+  ],
+  "psych>prog": [
+   {
+    "x": 800,
+    "y": 522,
+    "names": [
+     "Jethro Tull",
+     "Rush",
+     "ELO"
+    ],
+    "anchor": "middle"
+   }
+  ],
+  "prog": [
+   {
+    "x": 881.5,
+    "y": 555,
+    "names": [
+     "Yes",
+     "Pink Floyd",
+     "Genesis",
+     "Residents=>The Residents",
+     "King Crimson"
+    ],
+    "anchor": "middle",
+    "nudge": [
+     0,
+     3
+    ]
+   }
+  ],
+  "southern": [
+   {
+    "x": 631.5,
+    "y": 642,
+    "names": [
+     "Allman Brothers",
+     "Lynyrd Skynyrd",
+     "ZZ Top",
+     "Ozark Mt. Daredevils=>Ozark Mountain Daredevils",
+     "Black Oak Arkansas",
+     "Molly Hatchet",
+     "Little Feat"
+    ],
+    "nudge": [
+     0,
+     1.2
+    ],
+    "rowSpacing": 14.7
+   },
+   {
+    "x": 760,
+    "y": 622.5,
+    "names": [
+     "Dr. John"
+    ]
+   }
+  ],
+  "glam": [
+   {
+    "x": 847.5,
+    "y": 665,
+    "names": [
+     "David Bowie",
+     "Alice Cooper",
+     "T Rex=>T. Rex",
+     "Roxy Music"
+    ]
+   }
+  ],
+  "weird": [
+   {
+    "x": 1013.5,
+    "y": 650,
+    "names": [
+     "Zappa=>Frank Zappa",
+     "Can"
+    ]
+   },
+   {
+    "x": 1016,
+    "y": 684.5,
+    "names": [
+     "Capt. Beefheart=>Captain Beefheart"
+    ],
+    "anchor": "middle"
+   }
+  ],
+  "eighties": [
+   {
+    "x": 1107.5,
+    "y": 673,
+    "names": [
+     "Dead Kennedys",
+     "The Replacements",
+     "Minutemen",
+     "Sonic Youth",
+     "Butthole Surfers",
+     "Husker Du=>Hüsker Dü",
+     "Meat Puppets",
+     "Fugazi"
+    ]
+   }
+  ],
+  "funk": [
+   {
+    "x": 446,
+    "y": 780.5,
+    "names": [
+     "Parliament/Funkadelic=>Parliament-Funkadelic",
+     "Confunktion=>Con Funk Shun",
+     "Prince",
+     "Isley Brothers",
+     "Rick James"
+    ]
+   }
+  ],
+  "disco": [
+   {
+    "x": 630,
+    "y": 783,
+    "names": [
+     "Bee Gees",
+     "The Village People=>Village People",
+     "Donna Summer"
+    ]
+   },
+   {
+    "x": 569,
+    "y": 827.5,
+    "names": [
+     "KC & the Sunshine|Band=>KC and the Sunshine Band"
+    ]
+   }
+  ],
+  "hiphop": [
+   {
+    "x": 933.5,
+    "y": 776.5,
+    "names": [
+     "Sugar Hill Gang=>Sugarhill Gang"
+    ],
+    "anchor": "middle"
+   },
+   {
+    "x": 994,
+    "y": 744,
+    "names": [
+     "Salt N Pepa=>Salt-N-Pepa",
+     "Doug E. Fresh",
+     "Eric B=>Eric B. & Rakim"
+    ]
+   },
+   {
+    "x": 941.5,
+    "y": 792,
+    "names": [
+     "Boogie Down Productions"
+    ]
+   }
+  ],
+  "rap": [
+   {
+    "x": 815,
+    "y": 789.5,
+    "names": [
+     "LL Cool J",
+     "Run DMC=>Run-DMC"
+    ],
+    "anchor": "middle"
+   },
+   {
+    "x": 779,
+    "y": 824,
+    "names": [
+     "Dr. Dre",
+     "The Geto Boys=>Geto Boys",
+     "Public Enemy"
+    ],
+    "anchor": "end",
+    "nudge": [
+     -4,
+     0
+    ]
+   },
+   {
+    "x": 808.5,
+    "y": 861,
+    "names": [
+     "N.W.A.=>N.W.A"
+    ],
+    "anchor": "middle"
+   },
+   {
+    "x": 844,
+    "y": 818,
+    "names": [
+     "Beastie Boys",
+     "Ice T=>Ice-T",
+     "Ice Cube",
+     "Snoop Dogg"
+    ]
+   }
+  ]
+ },
+ "lesson": [
+  {
+   "genre": "blues",
+   "text": "Class, before we rock, we pay respect. Everything starts in the Mississippi Delta with the blues."
+  },
+  {
+   "genre": "rnb",
+   "text": "Speed it up, add a backbeat and a horn section, and move it to the city. Now it's rhythm and blues, and people are dancing."
+  },
+  {
+   "genre": "rockabilly",
+   "text": "Country crashes the party. A kid named Elvis walks into Sun Studio in Memphis and suddenly there's a name for this: rock and roll."
+  },
+  {
+   "genre": "brit",
+   "text": "Meanwhile, across the ocean, British kids were listening to every record. They sent it right back, louder. Beatlemania, 1964."
+  },
+  {
+   "genre": "hardrock",
+   "text": "Then Cream and Zeppelin plugged into bigger amps. That's the lesson. Pop quiz tomorrow: follow any arrow and see where it takes you."
+  }
+ ]
+}
