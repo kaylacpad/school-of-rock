@@ -1227,6 +1227,10 @@
     "y": 353.5,
     "names": [
      "AC/DC"
+    ],
+    "nudge": [
+     0,
+     -2
     ]
    }
   ],
@@ -1489,7 +1493,11 @@
     "names": [
      "Sugar Hill Gang=>Sugarhill Gang"
     ],
-    "anchor": "middle"
+    "anchor": "middle",
+    "nudge": [
+     0,
+     2
+    ]
    },
    {
     "x": 994,

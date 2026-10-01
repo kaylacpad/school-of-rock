@@ -88,17 +88,39 @@ Object.entries(L).forEach(([k,groups])=>{
       if(ann) return;
       t.setAttribute("tabindex","0"); t.setAttribute("role","button"); t.setAttribute("aria-label",id);
       if(A[id]){ const s=el("tspan",{class:"star",dx:"4"},t); s.textContent="★"; }
-      t.addEventListener("click",e=>{e.stopPropagation(); if(moved) return; openArtist(id,true);});
+      t._open=()=>openArtist(id,true);
+      t.addEventListener("click",e=>{e.stopPropagation(); if(moved) return; t._open();});
       t.addEventListener("keydown",e=>{if(e.key==="Enter"){openArtist(id,true);}});
     });
   });
 });
 
 /* ================= PAN / ZOOM ================= */
-const board=$("#board"), world=$("#world");
+const board=$("#board"), world=$("#world"), stage=$("#stage"), mapSvg=$("#map");
 let view={x:0,y:0,k:1};
 const BW=1280, BH=960, BY=60; // content bounds (y from 60..1020)
-function apply(){ world.setAttribute("transform",`translate(${view.x},${view.y}) scale(${view.k})`); }
+// Moving the board: batch updates to one per screen refresh, and keep the chart on a GPU layer only while it moves
+let rafId=0, settleT=0;
+function apply(){
+  if(rafId) return;
+  rafId=requestAnimationFrame(()=>{ rafId=0;
+    stage.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.k})`;
+    stage.classList.add("moving"); clearTimeout(settleT);
+    settleT=setTimeout(()=>stage.classList.remove("moving"),160); });
+}
+function sizeStage(){ const bb=world.getBBox(); mapSvg.setAttribute("width",Math.ceil(bb.x+bb.width+40)); mapSvg.setAttribute("height",Math.ceil(bb.y+bb.height+40)); }
+// Invisible tap targets around each name (cheaper than drawing invisible outlines)
+function addHitAreas(){
+  document.querySelectorAll(".hit").forEach(r=>r.remove());
+  document.querySelectorAll("text.artist:not(.anno)").forEach(t=>{
+    const b=t.getBBox(); const r=el("rect",{class:"hit",x:b.x-6,y:b.y-4,width:b.width+12,height:b.height+8});
+    t.parentNode.insertBefore(r,t);
+    r.addEventListener("click",e=>{e.stopPropagation(); if(moved) return; t._open();});
+    r.addEventListener("mouseenter",()=>t.classList.add("hov")); r.addEventListener("mouseleave",()=>t.classList.remove("hov"));
+  });
+}
+sizeStage(); addHitAreas();
+document.fonts?.ready.then(()=>{ sizeStage(); addHitAreas(); });
 function fitView(){
   const bb=world.getBBox(); const CX0=bb.x-10, CY0=bb.y-10, cw=bb.width+20, ch=bb.height+20;
   const r=board.getBoundingClientRect(); const padTop=56, padBot=76;
@@ -343,7 +365,7 @@ $("#lessonPrev").onclick=()=>{ if(li>0){li--;showStep();} };
 /* ================= INTRO ================= */
 let hinted=false; function hideHint(){ if(hinted)return; hinted=true; $("#hint").style.opacity=0; }
 updateProgress();
-view=startView(); apply();
+view=startView(); stage.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.k})`;
 if(!reduce){
   edgeEls.forEach((p,i)=>{ const L_=p.getTotalLength(); const dash=p.classList.contains("dashed");
     const m=p.getAttribute("marker-end"); if(m)p.removeAttribute("marker-end"); if(p.classList.contains("anno"))return;
